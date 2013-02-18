@@ -1,0 +1,12 @@
+By David Gedarovich <dave.gedarovich@gmail.com>
+
+Used to create spaced hex files from plaintext messages. 
+The files can be passed around with a hash used to verify integrity.
+
+spacedHexEncoder
+Takes user input and encodes it to a space-seperated hex file with a matching
+hash file that can be decoded and checked by the second python script.
+
+spacedHexDecoder
+Takes in a space-seperated hex file and an accompanying hash file to decode
+and check against each other for data consistency. Files are deleted upon use.
