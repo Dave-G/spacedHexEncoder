@@ -1,4 +1,4 @@
-By David Gedarovich <dave.gedarovich@gmail.com>
+By David Gedarovich
 
 Used to create spaced hex files from plaintext messages. 
 The files can be passed around with a hash used to verify integrity.
